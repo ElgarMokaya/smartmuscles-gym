@@ -1,0 +1,72 @@
+header{
+    background-color: black;
+    padding: 12px 0;
+}
+.menu{
+margin-top: 10px;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 24px;
+}
+.menu ul li:hover{
+    color: rgb(216, 120, 30);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+@media only screen and (max-width:999px){
+    .menu{
+        position: fixed;
+        background: black;
+        width:-280px ;
+        height:100% ;
+        right: 0;
+        top: 64px;
+        transition: 0.4s ease-in-out;
+    }
+    .menu ul li{
+        display: block;
+        text-align: left;
+        margin: 0;
+        padding: 10px 0px 10px 26px;
+        border-bottom: 1px solid white;
+    }
+    .menu_icon{
+        display: inline-block;
+        position: relative;
+        right: 20px;
+        top: 9px;
+    }
+    .menu_icon span{
+        width: 32px;
+        height: 3px;
+        display: block;
+        background: white;
+        transition: 0.2s ease-in-out;
+
+    }
+    .menu_icon span:nth-child(2){
+        margin: 4px 0;
+    }
+    .menu_icon_Class span:nth-child(2){
+        display: none;
+    }
+    .menu_icon_Class span:nth-child(1){
+        transform: rotate(40deg);
+    }
+    .menu_icon_Class span:nth-child(3){
+        transform: rotate(-40deg);
+        margin-top: -3px;
+    }
+    .menuClass{
+        right: 0;
+        transition: 0.4s ease-in-out;
+    }
+}

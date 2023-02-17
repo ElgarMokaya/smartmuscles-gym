@@ -1,5 +1,5 @@
 
-<header>
+<header class="fixed-top">
   <div div="container">
 
 <div div="row">
@@ -19,7 +19,7 @@
       <div class="menu"[class.menuClass]="menuVariable">
           <ul>
               <li>HOME</li>
-              <li>ABOUTUS</li>
+              <li ><a > ABOUTUS</a> </li>
               <li>CLASSES</li>
               <li>SCHEDULES</li>
               <li>SIGNUP</li>
@@ -30,3 +30,32 @@
   </div>
   </div>
 </header>
+
+
+<div class="video-background">
+    <div class="video-wrap">
+
+        <div id="video">
+            <video id="bgvid" autoplay="autoplay" loop="loop"controls="controls"  >
+                <source src="../assets/videos/bagvideo1.mp4"type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+</div>
+<div class="caption">
+<div class="caption text-center">
+    <h3>WORK HARDER,GET STRONGER</h3>
+    <h1>EASY WITH OUR GYM</h1>
+    <a class="btn btn-outline-light btn-lg" href="#" role="button">BECOME A MEMEBER</a>
+
+</div>
+</div>
+
+<script>
+    window.onload = function(){
+        var element = document.getElementById('bgvid');
+    element.muted = true;
+
+    }
+</script>

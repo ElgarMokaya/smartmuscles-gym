@@ -70,3 +70,18 @@ margin-top: 10px;
         transition: 0.4s ease-in-out;
     }
 }
+
+
+/*background video */
+.video-background{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+.caption{
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    color: white;
+}

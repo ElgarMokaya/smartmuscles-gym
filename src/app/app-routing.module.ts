@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {path:'aboutus',loadComponent:()=>import('../components/aboutus/aboutus.component').then((com)=>com.AboutusComponent)}
+  {path:'contact',loadComponent:()=>import('../components/contactus/contactus.component').then((com)=>com.ContactusComponent)
+}
 ];
 
 @NgModule({

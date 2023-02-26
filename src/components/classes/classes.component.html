@@ -1,0 +1,32 @@
+
+<div class="container text-center top">
+    <span>
+        <h1>OUR CLASSES</h1>
+        <span>
+        <h4>Training Studio is free CSS template for gyms and fitness centers. You are</h4>
+        <h4>allowed to use this layout for your business website.</h4>
+    </span>
+    </span>
+
+</div>
+<div class="container">
+    <div class="row ">
+        <div class="col training " *ngFor="let m of trainings">
+            
+            <div class="card ">
+                <div class="card-body">
+                    <i class="material-icons center">
+                       {{m.icon}}
+                    </i>
+             <h4> {{m.task}}</h4>
+                </div>
+
+              </div>
+              <button type="button" class="btn btn-warning">Warning</button>
+              
+        </div>
+        <div class="col">
+            
+        </div>
+    </div>
+</div>

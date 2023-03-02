@@ -5,7 +5,7 @@ section{
     flex-direction: column;
     
     justify-content: center;
-    color: aqua;
+    color: black;
     background-color: beige;
 
 }
@@ -16,7 +16,7 @@ section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 1.5rem;
-    background: grey;
+    background: #9dc0f7;
     border-radius: 0.5rem;
     overflow: hidden;
 
@@ -37,10 +37,10 @@ section{
     width: 100%;
     border: none;
     outline: none;
-    background: green;
+    background:white;
     padding: 10px;
     font-size: 0.9rem;
-    color: blue;
+    color: #0d0e0f;
     border-radius: 0.4rem;
 
 }
@@ -51,14 +51,14 @@ section{
 .contact-form .send-btn{
     border: none;
     outline: none;
-    background: blue;
+    background: rgb(211, 211, 212);
     font-size: 1rem;
     font-weight: 500px;
     text-transform: uppercase;
     cursor: pointer;
 }
 .contact-form .send-btn:hover{
-    background: blueviolet;
+    background:#f5f5dc;
     transition: 0.3s all linear;
 }
 .map iframe{
